@@ -37,7 +37,6 @@ function removeFirstCat() {
     const clone = [...cats];
     const spliced = clone.shift();
     return clone;
-    
 }
 
 
